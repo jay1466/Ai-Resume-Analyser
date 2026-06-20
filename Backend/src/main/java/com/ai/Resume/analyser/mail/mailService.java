@@ -21,6 +21,10 @@ public class mailService {
 
    @Value("${apiKey}")
    private String apiKey;
+
+   @Value("${senderEmail}")
+   private String senderEmail;
+
     @Autowired
     private TemplateEngine templateEngine;
 
@@ -40,7 +44,7 @@ public class mailService {
         TransactionalEmailsApi transactionalEmailsApi = new TransactionalEmailsApi(apiClient);
 
         SendSmtpEmail sendSmtpEmail = new SendSmtpEmail();
-        sendSmtpEmail.setSender(new SendSmtpEmailSender().name("Resume Analyser").email("a1b2c3d4w7x8y9z0@gmail.com"));
+        sendSmtpEmail.setSender(new SendSmtpEmailSender().name("Resume Analyser").email(senderEmail));
         sendSmtpEmail.setTo(Collections.singletonList(new SendSmtpEmailTo().name(username).email(email)));
         sendSmtpEmail.setSubject("Email verification OTP");
         sendSmtpEmail.setHtmlContent(mgs);
@@ -71,7 +75,7 @@ public class mailService {
         TransactionalEmailsApi transactionalEmailsApi = new TransactionalEmailsApi(apiClient);
 
         SendSmtpEmail sendSmtpEmail = new SendSmtpEmail();
-        sendSmtpEmail.setSender(new SendSmtpEmailSender().name("Resume Analyser").email("a1b2c3d4w7x8y9z0@gmail.com"));
+        sendSmtpEmail.setSender(new SendSmtpEmailSender().name("Resume Analyser").email(senderEmail));
         sendSmtpEmail.setTo(Collections.singletonList(new SendSmtpEmailTo().name(username).email(email)));
         sendSmtpEmail.setSubject("Reset password OTP");
         sendSmtpEmail.setHtmlContent(mgs);
