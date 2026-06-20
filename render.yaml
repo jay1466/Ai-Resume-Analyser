@@ -3,6 +3,7 @@ services:
     name: resume-analyser
     env: docker
     plan: free
+    rootDir: Backend
     dockerfilePath: ./Dockerfile
     autoDeploy: true
     branch: main
