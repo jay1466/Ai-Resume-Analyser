@@ -16,12 +16,16 @@ This project integrates **Google Gemini AI** for resume analysis and includes se
 
 <!-- TODO: Upload your screenshots to GitHub and replace these placeholder links below -->
 <p align="center">
-  <img width="45%" src="https://placehold.co/600x400?text=Screenshot+1" alt="Screenshot 1"/>
-  <img width="45%" src="https://placehold.co/600x400?text=Screenshot+2" alt="Screenshot 2"/>
+  <img width="45%" src="<img width="1710" height="888" alt="Screenshot 2026-06-20 at 3 10 33 PM" src="https://github.com/user-attachments/assets/cd58a68e-c759-46b7-969c-64e598707096" />
+"/>
+  <img width="45%" src="<img width="1710" height="883" alt="Screenshot 2026-06-20 at 3 08 34 PM" src="https://github.com/user-attachments/assets/f51732d1-15d1-441d-9a04-8d2b9ab6e874" />
+"/>
 </p>
 <p align="center">
-  <img width="45%" src="https://placehold.co/600x400?text=Screenshot+3" alt="Screenshot 3"/>
-  <img width="45%" src="https://placehold.co/600x400?text=Screenshot+4" alt="Screenshot 4"/>
+  <img width="45%" src="<img width="1710" height="891" alt="Screenshot 2026-06-20 at 3 09 58 PM" src="https://github.com/user-attachments/assets/7713233f-c594-4845-aa61-2fca4676c9ed" />
+"/>
+  <img width="45%" src="<img width="1710" height="889" alt="Screenshot 2026-06-20 at 3 10 12 PM" src="https://github.com/user-attachments/assets/3a34a816-32fb-488d-9752-aa6dcfe42fa2" />
+"/>
 </p>
 
 ## Project Structure
