@@ -1,5 +1,5 @@
 # Resume Analyzer          
-[![Live App](https://img.shields.io/badge/Live-App-brightgreen)](#your-render-url-goes-here)
+[![Live App](https://img.shields.io/badge/Live-App-brightgreen)](https://resume-analyser-ze0e.onrender.com/)
 
 ## Description
 
